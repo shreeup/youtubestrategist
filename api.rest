@@ -1,0 +1,23 @@
+
+POST http://localhost:9876/api/analyzechannel
+Content-Type: application/json
+
+{
+    "username": "@unknownchannel521656565654646611525"
+}
+
+###
+
+GET http://localhost:9876/api/channelanalytics?youtubeId=UCsBjURrPoezykLs9EqgamOA
+
+###
+
+GET http://localhost:9876/api/topicanalytics?youtubeId=UCsBjURrPoezykLs9EqgamOA
+
+###
+
+GET http://localhost:9876/api/topicrecommendations?youtubeId=UCsBjURrPoezykLs9EqgamOA
+
+###
+
+GET  http://localhost:9876/api/publishtiming?youtubeId=UCsBjURrPoezykLs9EqgamOA
